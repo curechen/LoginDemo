@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* height: 100%;
+    width: 100%; */
+    background-image: url(../img/index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* 在html中,默认的字体大小是14px */
+/* 注意这种写法： padding: 20px 50px; */
+/* 这是背景透明度  background-color: #00000065; */
+#bigBox {
+    margin: 0 auto;
+    margin-top: 140px;
+    padding: 20px 50px;
+    background-color: #00000065;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#bigBox h1 {
+    /* color特指文字颜色 */
+    color: white;
+}
+
+#bigBox .inputBox {
+    margin-top: 35px;
+}
+
+#bigBox .inputBox .inputText {
+    margin-top: 20px;
+}
+
+#bigBox .inputBox .inputText input {
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+#bigBox .inputBox .inputButton{
+    /* border是边线 */
+    border: 0;
+    width: 130px;
+    height: 25px;
+    color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
